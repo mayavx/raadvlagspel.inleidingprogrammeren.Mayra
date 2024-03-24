@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raad de vlag naam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Raad het land van de vlag</h1>
+
+</header>
+
+<main>
+
+<!--Vlag van Polen raden-->
+    <!--Dit stukje samen met Lisette gedaan-->
+    <img src="images/valg-polen.svg" alt="Vlag van Polen"> <br> <!--https://nl.wikipedia.org/wiki/Vlag_van_Polen-->
+    <label for="invoerVeld">Raad het land:</label>
+    <input type="text" name="invoerVeld" id="invoerVeld"> <br>
+    <button id="raadButton" onclick="vlagPolen()">Raad</button>
+    <div id="meldingPolen"></div> <br>
+    <!--Dit stukje samen met Lisette gedaan-->
+
+ <!--Vlag van India raden-->
+    <img src="images/vlag-india.png" alt="Vlag van India"> <br> <!--https://goodcssm.live/product_details/34670561.html-->
+    <label for="invoerVeld2">Raad het land:</label>
+    <input type="text" name="invoerVeld2" id="invoerVeld2"> <br>
+    <button id="raadButton" onclick="vlagIndia()">Raad</button>
+    <div id="meldingIndia"></div> <br>
+
+ <!--Vlag van Spanje raden-->
+    <img src="images/vlag-spanje.png" alt="Vlag van Spanje"> <br> <!--https://nl.wikipedia.org/wiki/Vlag_van_Spanje-->
+    <label for="invoerVeld3">Raad het land:</label>
+    <input type="text" name="invoerVeld3" id="invoerVeld3"> <br>
+    <button id="raadButton" onclick="vlagSpanje()">Raad</button>
+    <div id="meldingSpanje"></div> <br>
+
+ <!--Vlag van Colombia raden-->
+    <img src="images/vlag-colombia.png" alt="Vlag van Colombia"> <br> <!--https://nl.wikipedia.org/wiki/Vlag_van_Colombia-->
+    <label for="invoerVeld4">Raad het land:</label>
+    <input type="text" name="invoerVeld4" id="invoerVeld4"> <br>
+    <button id="raadButton" onclick="vlagColombia()">Raad</button>
+    <div id="meldingColombia"></div> <br>
+
+<!--Vlag van Portugal raden-->
+    <img src="images/portugal.png" alt="Vlag van Portugal"> <br> <!--https://nl.wikipedia.org/wiki/Vlag_van_Portugal-->
+    <label for="invoerVeld5">Raad het land:</label>
+    <input type="text" name="invoerVeld5" id="invoerVeld5"> <br>
+    <button id="raadButton" onclick="vlagPortugal()">Raad</button>
+    <div id="meldingPortugal"></div> <br>
+
+</main>
+
+<footer>
+
+    <h2>Einde</h2>
+
+</footer>
+
+    <script src="script.js"></script> <!--HTML koppelen aan Javascript-->
+
+    <audio id="soundCorrect" src="sounds/correct-156911.mp3"></audio>
+    <audio id="soundFout" src="sounds/negative_beeps-6008.mp3"></audio>
+
+    <!--Sounds komen van: https://pixabay.com/sound-effects/search/wrong/-->
+    <!--https://pixabay.com/sound-effects/search/correct/-->
+</body>
+</html>
